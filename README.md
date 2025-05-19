@@ -1,2 +1,2 @@
 # LegendsofTheaifi
-Wiki for LoT
+### [Theaifi Main](https://nonsensicaltrickster.github.io/LegendsofTheaifi/Main.html)
