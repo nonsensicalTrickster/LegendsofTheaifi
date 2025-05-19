@@ -1,0 +1,2 @@
+# LegendsofTheaifi
+Wiki for LoT
