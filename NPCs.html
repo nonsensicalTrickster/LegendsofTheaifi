@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+  <!DOCTYPE html>
 <html>
 <head>
 <title>Legends of Theaifi</title>
@@ -24,6 +24,38 @@ body, html {
 .menu {
   display: none;
 }
+.collapsible {
+  background-color: #b09e8a;
+  color: #47321a;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 18px;
+}
+
+.active, .collapsible:hover {
+  background-color: #e2d9cf;
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #e2d2c0;
+}
+    ul {
+  background: #b09e8a;
+  padding: 20px;
+    }
+  ul li {
+  background: #e2d9cf;
+  color: #47321a;
+  margin: 5px;
+    }
 </style>
 </head>
 <body>
@@ -62,27 +94,79 @@ body, html {
     <h5 style="background-image: url('https://i.pinimg.com/736x/9a/cc/98/9acc98d0af9cd2694ffd4745f6999a2c.jpg');" class="w3-center w3-padding-64"><span class="w3-tag w3-wide">Wurmhornne</span></h5>
     <p>The people of Wurmhornne are typically Elven, with the Deepelves living in the Veins and the rest living above ground. Outside of the Elven people, there are many other fey-adjacent races such as Faeries, Sprites, Archfey, Leshy and many others.</p>
     <p>Listed are the various Wurmhornne NPCs that have been met thus far, as well as important NPCs.</p>
-   <style>
-    ul {
-  background: #cedaba;
-  padding: 20px;
-    }
-  ul li {
-  background: ##f1f5ed;
-  color: darkgreen;
-  margin: 5px;
-    }
-    </style>
 <ul>
-  <li>King Neraviea Kalsafie</li>
-  <li>Garrett Montblanc</li>
-  <li>Arletta Noctis</li>
+  <li><button class="collapsible">King Neraviea Kalsafie</button>
+<div class="content">
+  <p>Info</p></div></li>
+  <li><button class="collapsible">Garette Montblanc</button>
+<div class="content">
+  <p>Info</p></div></li>
+  <li><button class="collapsible">Arletta Noctis</button>
+<div class="content">
+  <p>Info</p></div></li>
+  <li><button class="collapsible">Terlu of the Sovereign Court</button>
+<div class="content">
+  <p>Info</p></div></li>
+</ul>
+  </div>
+<div class="w3-content" style="max-width:700px">
+    <h5 style="background-image: url('https://4.bp.blogspot.com/-iDTiMg2nYqA/TbrZN9M_5oI/AAAAAAAAAIU/i1_EleGtgCw/s1600/Mountain-pass-s1.jpg');" class="w3-center w3-padding-64"><span class="w3-tag w3-wide">Tinbach</span></h5>
+    <p>The people of Tinbach are a hardy breed, mostly made up of Dwarves and Orcs. The occasional Halfling can also be found here, though many are so thoroughly interbred between their own race and the Dwarves that they are considered a subrace of their own: Mountainkin. Beyond the Blade of the Frozen can be found a rather impressive span of Dragonborn who populate much of the north-western parts of Tinbach.</p>
+    <p>Listed are the various Tinbach NPCs that have been met thus far, as well as important NPCs.</p>
+<ul>
+  <li><button class="collapsible">Kangok Both - Orc leader of the Guilded Lotus</button>
+<div class="content">
+  <p>Info</p></div></li>
+</ul>
+  </div>
+  <div class="w3-content" style="max-width:700px">
+    <h5 style="background-image: url('https://i.imgur.com/nlUsPyY.jpeg');" class="w3-center w3-padding-64"><span class="w3-tag w3-wide">Mikahn</span></h5>
+    <p>The most diverse of the nations in terms of races, Mikahn finds itself home to a plethora of humans, Tabaxi, Nagaji, Halflings, Gnomes, and many, <i>many</i> more. The most predominant race is Beastkin, with Tabaxi being the highest population, but this is only by a small margin.</p>
+    <p>Listed are the various Mikahn NPCs that have been met thus far, as well as important NPCs.</p>
+<ul>
+  <li><button class="collapsible">Nipham Drame</button>
+<div class="content">
+  <p>A large and powerful Lionkin Tabaxi who is currently the head of the leading family of the Mikahn Alliance: the Drame Family.</p></div></li>
+  <li><button class="collapsible">Thames</button>
+<div class="content">
+  <p>An old shopkeeper who the party helped, runs a magic shop called Thames' Magic Emporium in Naehr. Is friendly with the party after their help assisting him with his 'haunting problem.'</p></div></li>
+  <li><button class="collapsible">Popplewell Family</button>
+<div class="content">
+  <p>Nicholas Popplewell - Goblin Cobbler who is in love with Clementine Harsthorne.</p></div></li>
+  <li><button class="collapsible">Harsthorne Family</button>
+<div class="content">
+  <p>Clementine Harsthorne - Gnomish Tailor who is in love with Nicholas Popplewell.</p></div></li>
+  <li><button class="collapsible">Folques Marethrul</button>
+<div class="content">
+  <p>An abjuration wizard who is skilled in both Astrology and protection magic. He had hosted a party at his manor some time ago, but unfortunately, everone inside was murdered except for him. The culprit was a cultist who utilized Dopplegangers with the intent of taking out and replacing notable Drame nobles. After the situation was resolved, given he had lost his husband and had nothing else he could do, Folques offered to assist the party in their quests until they asked that he leave.</p></div></li>
+  <li><button class="collapsible">Duphonse Family</button>
+<div class="content">
+  <p>A noble family of Glassworkers who earned their nobility through being the top of Glass Trade in Mikahn. Almost every piece of glasswork in Drame and the greater of Mikahn is made by the Duphonse family. Notable members of the Duphonse family include:<br></br><br>Thebaldus Duphonse - Once head of the Duphonse household, but was exposed by a past group of adventurers who revealed that he was not only a horribly scummy person who put on the face of a kind and portly man, but had apparently had some part in a scheme to awaken some ancient horror in his basement. He has repeatedly claimed to have had no hand in this, nor any idea that these things were taking place in the basement of the Duphonse family home.</br><br>Madeline Odreyn-Duphonse - The new head of the household and a member of a long-running family line of shadow sorcerers known for their glasswork trade. This is why the family home is full of beautiful glass works of art. While this has absolutely nothing to do with their shadow sorcery, they do still practice. It is obvious that the Duphonse family, while carrying Thebaldus' name, was considered noble due to Madeline's trade. She is a kind, motherly woman who is also very unwilling to put up with other's nonsense. She loves Michiah with all of her heart, and trusts Clancey with his care.</br><br>Mathrana  Odreyn-Duphonse - A paladin who was part of the raid on the Duphonse Family manor when it was found out that there was something terribly wrong happening in the basement. She, as an Oath of Devotion Paladin in the Church of El'yore and a member of the Order of Truth, has many duties that she partakes in her day-to-day life. She has helped Madeline rebuild her home and has taken in young Michiah as her own son.
+</br><br>Michiah Duphonse - A young sorcerer who, while being a little more than a preteen at 14 years old, seems very naïve and innocent for his age. He is very intelligent when it comes to scholarly knowledge, however anything on the end of street smarts is lost on him. Currently, he is travelling with Clancey to find out what was going on in his father's basement. The trail seems to lead to Wurmhornne, much to Clancey's dismay.</br></p></div></li>
+  <li><button class="collapsible">Clancy Galesong</button>
+<div class="content">
+  <p>An older Half-Elven cleric of Jae who serves the Duphonse Family and is Michiah's retainer.</p></div></li>
 </ul>
   </div>
 </div>
 
 <!-- End page content -->
 </div>
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
 
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    } 
+  });
+}
+</script>
 </body>
 </html>
